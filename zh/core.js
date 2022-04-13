@@ -39,10 +39,10 @@ var cnItems = {
     'Continue...': '继续',
     'Cookie Clicker': '无尽的饼干',
     'Conspiracy': '阴谋',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Congratulations, our conspiracy has dominated the world!': '恭喜，我们的阴谋已经统治了世界！',
+    'Keep Playing': '继续玩',
+    'Delete Saved Game and Restart': '删除已保存的游戏并重新开始玩',
+    'Delete Saved Game': '删除已保存的游戏',
     '': '',
     '': '',
     '': '',
@@ -217,10 +217,14 @@ var cnExcludePostfix = [
 
 //正则替换，带数字的固定格式句子
 var cnRegReplace = new Map([
-	[/^requires (\d+) more research points$/, '需要$1个研究点'],
-	[/^(\d+) Royal points$/, '$1 皇家点数'],
-	[/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
-	[/^Usages: (\d+)\/$/, '用途：$1\/'],
+	[/^([\d\.,]+) minds\/sec$/, '$1 思想/秒'],
+	[/^([\d\.,]+) votes\/sec$/, '$1 选票/秒'],
+    [/^([\d\.,]+) media \$\/sec$/, '$1 媒体 \$/秒'],
+    [/^([\d\.,]+) industry \$\/sec$/, '$1 行业 \$/秒'],
+	[/^([\d\.,]+)B votes$/, '$1B 选票'],
+    [/^([\d\.,]+)M votes$/, '$1M 选票'],
+    [/^([\d\.,]+)k votes$/, '$1k 选票'],
+    [/^([\d\.,]+)M minds$/, '$1M 思想'],
 	[/^workers: (\d+)\/$/, '工人：$1\/'],
 
 ]);
