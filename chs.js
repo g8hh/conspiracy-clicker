@@ -226,7 +226,7 @@ var cnItems = {
     "mass broadcast": "大众广播",
     "Profit: ": "利润：",
     "propaganda": "宣传",
-    "Reach": "抵达",
+    "Reach": "达到",
     "tax break": "减税",
     ". Once our politicians\n\t\t\tare enstated, they will control the agenda and the voters will flock to them.": ". 一旦我们的政客\n\t\t\被任命，他们将控制议程，选民将蜂拥而至。",
     "'Shore to Shore' Radio": "“岸对岸”电台",
